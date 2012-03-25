@@ -124,7 +124,7 @@
         "command": "git_commit_selected_hunk"
     }
     ,{
-        "caption": "Git: Gui",
+        "caption": "Git: GUI",
         "command": "git_gui"
     }
     ,{

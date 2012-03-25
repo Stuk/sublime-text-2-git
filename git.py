@@ -935,12 +935,9 @@ class GitCommitSelectedHunk(GitAddSelectedHunkCommand):
 
 class GitGuiCommand(GitTextCommand):
     def run(self, edit):
-        command = ['git', 'gui']
-        self.run_command(command)
+        self.run_command(['git', 'gui'])
 
 
 class GitGitkCommand(GitTextCommand):
     def run(self, edit):
-        command = ['gitk']
-        self.run_command(command)
-     
+        self.run_command(['gitk'])
